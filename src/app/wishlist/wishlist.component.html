@@ -1,0 +1,12 @@
+<div class="wishlist">
+  <h2>Your Wishlist</h2>
+  <ul>
+    <li *ngFor="let item of wishlistItems">
+      <h3>{{ item.title }} ({{ item.year }})</h3>
+      <p>{{ item.description }}</p>
+      <p><strong>Rating: {{ item.rating }}</strong></p>
+      <p><strong>Genre: {{ item.genre }}</strong></p>
+      <img [src]="item.image" alt="{{ item.title }}" />
+    </li>
+  </ul>
+</div>

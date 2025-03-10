@@ -1,0 +1,70 @@
+.wishlist {
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  width: 200px; /* Largeur de chaque carte */
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #007BFF;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 5px 0;
+}
+
+strong {
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+  max-height: 180px; /* Limite de la taille de l'image */
+}
+
+li:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
